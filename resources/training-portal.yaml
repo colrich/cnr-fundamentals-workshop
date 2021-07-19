@@ -11,5 +11,6 @@ spec:
   workshops:
   - name: cnr-devx-workshop
     capacity: 2
+    reserved: 0
     expires: 60m
     orphaned: 5m
