@@ -4,3 +4,62 @@
 
 **Split traffic across multiple workload versions.** A huge strength of cloud native application architectures deployed on Kubernetes is the ability to orchestrate modern application upgrade patterns like Canary and blue/green deployments. Cloud Native Runtimes for Tanzu gives developers the flexibility to deploy new versions of their applications and choose how much, if any, traffic will be routed to those new versions and on what schedule. Developers can also create subroutes and tag workload versions to only be invokable by the subroute and not the main route.
 
+
+```terminal:execute
+command: echo "Execute command."
+```
+
+
+```terminal:execute
+command: echo "Execute command - t1"
+session: 1
+```
+
+```terminal:execute
+command: echo "Execute command - t2"
+session: 2
+```
+
+```terminal:execute-all
+command: echo "Execute command in all"
+```
+
+
+```workshop:copy
+text: echo "Text to copy."
+```
+
+```workshop:copy-and-edit
+text: echo "Text to copy and edit."
+```
+
+```dashboard:open-url
+url: https://www.vmware.com/
+```
+
+```dashboard:create-dashboard
+name: created-vmware-dash
+url: https://www.vmware.com/
+```
+
+```dashboard:create-dashboard
+name: Example
+url: terminal:example
+```
+
+```dashboard:reload-dashboard
+name: created-vmware-dash
+```
+
+```dashboard:delete-dashboard
+name: created-vmware-dash
+```
+
+```editor:open-file
+file: /opt/workshop/setup/eventing-broker.yaml
+```
+
+```editor:select-matching-text
+file: /opt/workshop/setup/eventing-broker.yaml
+text: "metadata: "
+```
