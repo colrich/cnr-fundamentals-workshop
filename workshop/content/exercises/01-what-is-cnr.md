@@ -5,13 +5,3 @@ Cloud Native Runtimes gives developers and application operators (who are someti
 - Be more productive on Kubernetes, faster – Deploy, scale, access, and manage containerized workloads without writing Kubernetes manifests or other templates using Knative Serving. 
 
 - Build event-based applications that span multiple workload types – Access a Knative eventing resource that can trigger Kubernetes workloads based on external events using Knative Eventing.
-
-
-```execute-1
-echo "Execute command."
-```
-
-```execute-2
-echo "Execute command."
-```
-
